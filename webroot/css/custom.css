@@ -1,0 +1,33 @@
+html, body {
+    background: url('../img/image.jpg') no-repeat center center;
+    background-size: 150%;
+}
+
+.contained {
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.btn {
+    margin-left: 47%;
+}
+
+.clock {
+    text-align: center;
+    color: #1cc7ff;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.contained {
+    margin-top: 10px;
+}
+
+.table100 {
+    clear: both;
+}
+
+.table2 {
+    margin-top: 20px;
+}
