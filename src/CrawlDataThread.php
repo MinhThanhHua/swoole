@@ -49,4 +49,4 @@ while ($pool->collect()) {
 
 $pool->shutdown();
 echo('Time: ');
-echo(microtime(true) - $time);
+var_dump(microtime(true) - $time);

@@ -46,7 +46,7 @@ class CrawlDataSwooleLibShell extends Shell
             $processes[$i] = $this->Swoole->swoole_process(function ($process) use ($i) {
                 $url = "https://www.pexels.com/vi-vn/tim-kiem/v%E1%BA%BB%20%C4%91%E1%BA%B9p/?page=$i&seed=2019-10-03+07%3A53%3A04+%2B0000&type=";
                 Crawler::create()
-                    ->ignoreRofbots()
+                    ->ignoreRobots()
                     ->setMaximumCrawlCount(1)
                     ->addCrawlObserver(new getImage('dataSwooleLib'))
                     ->startCrawling($url);
